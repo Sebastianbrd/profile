@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F0F7F4;
+  font-size: 18px;
+  line-height: normal;
+  color: #32292f;
+}
+
+h1 {
+  color: #70ABAF;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+h2 {
+  color: #70ABAF;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+a {
+  color: #99E1D9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #70ABAF
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
+
+
+@media (min-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.btn-orange {
+  background-color: #FF5500;
+  color: #F0F7F4;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#techno:hover {
+  background-color: #000000;
+  color: #F0F7F4;
+}
+#house:hover {
+  background-color: #ff029e;
+  color: #F0F7F4;
+}
+
+.img-profile {
+  width: 100px;
+  border-radius: 50%;
+}
